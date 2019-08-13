@@ -1,11 +1,10 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 
 function App() {
   return (
     <div className='App'>
-      <p>learning D3</p>
+      <h1 className='App__title'>learning D3</h1>
     </div>
   );
 }
